@@ -1,0 +1,33 @@
+.recommendations-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recommendation-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+}
+
+.recommendation-card img {
+  width: 100%;
+  height: auto;
+}
+
+.recommendation-card h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.recommendation-card p {
+  font-size: 1em;
+  color: #666;
+  padding: 0 15px 15px;
+}

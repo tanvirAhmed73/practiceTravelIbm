@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="navbarStyles.css" />
+    <link rel="stylesheet" href="heroStyles.css" />
+    <link rel="stylesheet" href="contactUsStyles.css" />
+    <link rel="stylesheet" href="travelRecomStyles.css" />
+    <title>TravelBloom Navbar</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <!-- Logo -->
+      <div class="logo">
+        <span>TravelBloom</span>
+      </div>
+
+      <!-- Navbar Links -->
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter a destination or keyword"
+        />
+        <button id="searchButton" class="search">Search</button>
+        <button id="clearButton" class="clear">Clear</button>
+      </div>
+    </nav>
+
+    <!-- Homepage -->
+    <section class="hero-section">
+      <!-- Social Media Icons -->
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <!-- Main Content -->
+      <div class="content">
+        <h1>Explore Dream Destination</h1>
+        <p>
+          It encourages exploration of unfamiliar territories, embracing diverse
+          cultures and landscapes, while pursuing the desired destination that
+          captivates the heart and ignites a sense of wonder.
+        </p>
+        <a href="#book" class="btn-book">Book Now</a>
+      </div>
+      <div id="searchResults"></div>
+    </section>
+
+    <!-- contact us -->
+    <section class="contact-section">
+      <!-- Social Media Icons -->
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <div id="recommendations" class="recommendations-container">
+      <!-- Travel recommendations will be displayed here -->
+    </div>
+
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>

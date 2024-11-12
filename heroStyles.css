@@ -1,0 +1,88 @@
+/* Background image styling */
+.hero-section {
+  background-image: url("https://t4.ftcdn.net/jpg/00/65/48/25/360_F_65482539_C0ZozE5gUjCafz7Xq98WB4dW6LAhqKfs.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#searchResults {
+  z-index: 1;
+}
+
+/* Overlay for better text contrast */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  color: aliceblue;
+}
+
+/* Main title styling */
+.content h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Description styling */
+.content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* Book Now button styling */
+.btn-book {
+  background-color: #17a2b8;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn-book:hover {
+  background-color: #138496;
+}
+
+/* Social media icons styling */
+.social-icons {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #17a2b8;
+}
