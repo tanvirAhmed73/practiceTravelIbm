@@ -52,6 +52,12 @@
   font-size: 1em;
 }
 
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #fff; /* Change placeholder text color to white */
+  opacity: 0.7; /* Optional: Adjust opacity for better visibility */
+}
+
 .contact-form textarea {
   resize: none;
   height: 150px;

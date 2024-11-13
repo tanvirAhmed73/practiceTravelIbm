@@ -1,0 +1,52 @@
+/* About Us Section Styles */
+.about-section {
+  padding: 40px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  text-align: center; /* Center text */
+}
+
+.about-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333; /* Darker text color */
+}
+
+.about-section p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #666; /* Gray text color */
+  max-width: 800px; /* Limit width for readability */
+  margin: 0 auto; /* Center the paragraph */
+}
+
+.team-members {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center team members */
+  flex-wrap: wrap; /* Allow wrapping */
+  margin-top: 30px; /* Space above team members */
+}
+
+.team-member {
+  background-color: #fff; /* White background for team member cards */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  margin: 10px; /* Space between team members */
+  width: 250px; /* Fixed width for team member cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.team-member:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.team-member h4 {
+  font-size: 1.5em;
+  color: #333; /* Darker text color */
+}
+
+.team-member p {
+  font-size: 1em;
+  color: #555; /* Slightly darker gray for role and description */
+}
